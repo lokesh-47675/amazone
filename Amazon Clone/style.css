@@ -1,0 +1,262 @@
+*{
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+.navbar{
+    height: 60px;
+    width: 100vw;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 113px;
+    
+      
+}
+img{
+    height: 50px;
+    width: 113px;
+    margin-left: 3px;
+    margin-right: 3px;
+   
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav_address{
+    height: 50px;
+    width: 87px;
+    color: white;
+   margin-top: 5px;
+   margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;    
+}
+.add_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    gap: 6px;
+    font: 14px;
+}
+p{
+    font-size: 12px;
+    color: #cccccc;
+    
+}
+i{
+    width: 15px;
+    height: 18px;
+}
+.country{
+   font-size: 14px;
+   font-weight: bolder;
+}
+
+/* nav search */
+.nav-search{
+   display: flex;
+   flex-direction: row;
+   gap: 0px ; 
+   background-color: rgb(220, 25, 57);
+   width: 600px;
+   height: 40px;
+   border-radius: 5px;
+   
+}
+.search-select{
+     width: 52px;
+     height: 40px;
+     color: #0f1111;
+     background-color: #ffffff;
+     font: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+
+}
+.search-input{
+   
+    width: 500px;
+    font-size: 1rem;
+   
+}
+.search-icon{
+    width: 40.8px;
+    background-color: rgb(250, 218, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.search-icon:hover{
+    background-color:rgb(168, 102, 8) ;
+    font-size: 1.5rem;
+}
+/* box4 */
+
+
+.nav-second{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: white;
+   
+}
+/* box-six */
+.cart-icon{
+    font-size: 2rem;
+    transition: all;
+}
+.cart-icon:hover{
+    font-size: 2.5rem;
+   color: rgba(227, 205, 76, 0.779);
+   
+}
+
+/* panel */
+.panel{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+
+height: 40px;
+background-color: #222f3d;
+
+
+
+}
+.panel_option{
+    display: flex;
+    flex-direction: row ;
+    width: 90%;
+    
+    
+}
+.panel_option p{
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 1rem;
+    padding: 8px 9px;
+}
+.panel_option p:hover{
+    border: 2px solid white;
+   border-color: rgb(183, 167, 47);
+   border-radius: 5px;
+   
+}
+
+.panel_all i{
+    color: white;
+   font-size: 1.2rem;
+}
+.panel_all{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.panel_all p{
+  font-size: 1rem;
+  padding: 5px;
+}
+
+/* hero section */
+.hero_section{
+    background-image: url("hero_image.jpg"); 
+    height: 400px;
+     background-size:cover; 
+     display: flex;
+     justify-content: center;
+     align-items:flex-end;
+    
+}
+
+.hero_msg{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.hero_msg p{
+    color: black;
+    font-size: 1rem;
+}
+
+/* shop-section */
+
+.shop-section{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-evenly;
+ background-color: rgb(186, 200, 212);
+
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    
+    
+    background-color: rgb(186, 200, 212);
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+/* sign_in */
+.signin{
+    height: 80px;
+    background-attachment: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.box_img {
+    /* background-image: url("box2_image.jpg"); */
+    height: 300px;
+    background-size: cover;
+}
+.box_content{
+    margin-left: 10px;
+    margin-right: 10px;
+}  
+.foot_panel1{
+    background-color: #222f3d;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.foot_panel{
+    height: 500px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+}
